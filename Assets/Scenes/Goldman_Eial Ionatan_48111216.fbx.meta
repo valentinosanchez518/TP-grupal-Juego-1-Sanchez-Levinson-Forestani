@@ -1,15 +1,20 @@
 fileFormatVersion: 2
-guid: 2cbb9f98161367d4786aaed8a034bde0
+guid: 713ffe8708e01c24b826efd72c803030
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
     400000: //RootNode
-    2100000: Material.002
+    2100000: Paleta
     2300000: //RootNode
     3300000: //RootNode
-    4300000: Sphere
-  externalObjects: {}
+    4300000: masa 1
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Paleta
+    second: {fileID: 2100000, guid: caee345305866924fb098fd4c9fcf495, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
