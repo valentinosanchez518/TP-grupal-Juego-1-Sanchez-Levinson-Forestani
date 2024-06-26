@@ -334,6 +334,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Botella1
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: aa516a3e740e6ab4580ea454b72a8dfa, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: aa516a3e740e6ab4580ea454b72a8dfa, type: 3}
       propertyPath: m_LocalPosition.x
       value: 177.3
@@ -564,6 +568,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Botella2
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: aa516a3e740e6ab4580ea454b72a8dfa, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: aa516a3e740e6ab4580ea454b72a8dfa, type: 3}
       propertyPath: m_LocalPosition.x
       value: 367.9
@@ -649,7 +657,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &377993753
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -660,6 +667,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 5ace8556223687c4e9345069a8778227, type: 3}
       propertyPath: m_Name
       value: Hamburguesa1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 5ace8556223687c4e9345069a8778227, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5ace8556223687c4e9345069a8778227, type: 3}
       propertyPath: m_LocalPosition.x
@@ -760,6 +771,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: medialuna2
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0a8bd25d771e4a04fb1ff8f5b3eec477, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0a8bd25d771e4a04fb1ff8f5b3eec477, type: 3}
       propertyPath: m_LocalPosition.x
       value: 363.9
@@ -849,7 +864,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &406536217
 GameObject:
   m_ObjectHideFlags: 0
@@ -940,7 +954,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 834ec61d156c34b4f94daf8c56fc3f29, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 834ec61d156c34b4f94daf8c56fc3f29, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1111,6 +1125,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: hongo2
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: fd0002f078a87a649b9fe56978435a1e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fd0002f078a87a649b9fe56978435a1e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 367.9
@@ -1200,7 +1218,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &631256388
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1211,6 +1228,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 5ace8556223687c4e9345069a8778227, type: 3}
       propertyPath: m_Name
       value: Hamburguesa2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 5ace8556223687c4e9345069a8778227, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5ace8556223687c4e9345069a8778227, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1301,7 +1322,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &638488953
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1312,6 +1332,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: bec8672e7d72a3b4fb52ee12fb9e2fa9, type: 3}
       propertyPath: m_Name
       value: Sandia2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: bec8672e7d72a3b4fb52ee12fb9e2fa9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: bec8672e7d72a3b4fb52ee12fb9e2fa9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1477,6 +1501,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Zanahoria2
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 744948a34362f9d458e83be567265d30, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 744948a34362f9d458e83be567265d30, type: 3}
       propertyPath: m_LocalPosition.x
       value: 363.9
@@ -1566,7 +1594,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &799664152
 GameObject:
   m_ObjectHideFlags: 0
@@ -1643,6 +1670,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 4ba3de0dd78fb65488c84d8b59e7bd29, type: 3}
       propertyPath: m_Name
       value: limon1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 4ba3de0dd78fb65488c84d8b59e7bd29, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4ba3de0dd78fb65488c84d8b59e7bd29, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1897,6 +1928,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: hongo1
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: fd0002f078a87a649b9fe56978435a1e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: fd0002f078a87a649b9fe56978435a1e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 177.3
@@ -1996,6 +2031,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Banana2
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 2851491cadf3e9c4c80638a256161986, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 2851491cadf3e9c4c80638a256161986, type: 3}
       propertyPath: m_LocalPosition.x
       value: 347.9
@@ -2085,7 +2124,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1178578283
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2096,6 +2134,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 2851491cadf3e9c4c80638a256161986, type: 3}
       propertyPath: m_Name
       value: Banana1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 2851491cadf3e9c4c80638a256161986, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 2851491cadf3e9c4c80638a256161986, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2196,6 +2238,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CHamburguesa2
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 97bafb99f2492f64896ba369207557d2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 97bafb99f2492f64896ba369207557d2, type: 3}
       propertyPath: m_LocalPosition.x
       value: 369
@@ -2282,6 +2328,10 @@ PrefabInstance:
     - target: {fileID: 100008, guid: 8a42ec276a7b6b74b95019848fab3b9e, type: 3}
       propertyPath: m_Name
       value: Sandwich2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: 8a42ec276a7b6b74b95019848fab3b9e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400008, guid: 8a42ec276a7b6b74b95019848fab3b9e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2372,7 +2422,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1300311900
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2383,6 +2432,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 0a8bd25d771e4a04fb1ff8f5b3eec477, type: 3}
       propertyPath: m_Name
       value: medialuna1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 0a8bd25d771e4a04fb1ff8f5b3eec477, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 0a8bd25d771e4a04fb1ff8f5b3eec477, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2482,6 +2535,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: d29b0b8bdb7d2b44c8ac7b49f5dcbf01, type: 3}
       propertyPath: m_Name
       value: sushi1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d29b0b8bdb7d2b44c8ac7b49f5dcbf01, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d29b0b8bdb7d2b44c8ac7b49f5dcbf01, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2659,6 +2716,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pera1
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 69a457683d709b544b25f8a8ccf66c8c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 69a457683d709b544b25f8a8ccf66c8c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 180.3
@@ -2741,6 +2802,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 4ba3de0dd78fb65488c84d8b59e7bd29, type: 3}
       propertyPath: m_Name
       value: limon2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 4ba3de0dd78fb65488c84d8b59e7bd29, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4ba3de0dd78fb65488c84d8b59e7bd29, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2831,7 +2896,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1450291557
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2842,6 +2906,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: bec8672e7d72a3b4fb52ee12fb9e2fa9, type: 3}
       propertyPath: m_Name
       value: Sandia1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: bec8672e7d72a3b4fb52ee12fb9e2fa9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: bec8672e7d72a3b4fb52ee12fb9e2fa9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2929,6 +2997,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 744948a34362f9d458e83be567265d30, type: 3}
       propertyPath: m_Name
       value: Zanahoria1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 744948a34362f9d458e83be567265d30, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 744948a34362f9d458e83be567265d30, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3028,6 +3100,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 69a457683d709b544b25f8a8ccf66c8c, type: 3}
       propertyPath: m_Name
       value: Pera2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 69a457683d709b544b25f8a8ccf66c8c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 69a457683d709b544b25f8a8ccf66c8c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3189,6 +3265,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: sushi2
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d29b0b8bdb7d2b44c8ac7b49f5dcbf01, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d29b0b8bdb7d2b44c8ac7b49f5dcbf01, type: 3}
       propertyPath: m_LocalPosition.x
       value: 368.9
@@ -3278,7 +3358,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1872109972
 GameObject:
   m_ObjectHideFlags: 0
@@ -3366,6 +3445,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 97bafb99f2492f64896ba369207557d2, type: 3}
       propertyPath: m_Name
       value: CHamburguesa1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 97bafb99f2492f64896ba369207557d2, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 97bafb99f2492f64896ba369207557d2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3456,7 +3539,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 834ec61d156c34b4f94daf8c56fc3f29, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 834ec61d156c34b4f94daf8c56fc3f29, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3544,6 +3627,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 9def20e36767c31499f188124939ad13, type: 3}
       propertyPath: m_Name
       value: salchicha1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 9def20e36767c31499f188124939ad13, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9def20e36767c31499f188124939ad13, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3644,6 +3731,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: salchicha2
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 9def20e36767c31499f188124939ad13, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9def20e36767c31499f188124939ad13, type: 3}
       propertyPath: m_LocalPosition.x
       value: 365.9
@@ -3733,7 +3824,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &2072191736
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3744,6 +3834,10 @@ PrefabInstance:
     - target: {fileID: 100008, guid: 8a42ec276a7b6b74b95019848fab3b9e, type: 3}
       propertyPath: m_Name
       value: Sandwich1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: 8a42ec276a7b6b74b95019848fab3b9e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400008, guid: 8a42ec276a7b6b74b95019848fab3b9e, type: 3}
       propertyPath: m_LocalPosition.x
