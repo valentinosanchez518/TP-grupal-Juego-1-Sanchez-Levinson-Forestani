@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -9,9 +10,10 @@ public class poductosScript : MonoBehaviour
     public GameObject[] alimentos2;
     public GameObject panel;
     public GameObject BotonResponder;
-    public GameObject BotonSalir;
 
 
+
+    public Text BotonSalir;
     public Text Txtprecio1;
     public Text Txtprecio2;
     public Text Txtresultado;
@@ -19,8 +21,8 @@ public class poductosScript : MonoBehaviour
 
     int[] precios;
 
-    public int SumaPrecios;
-    public int respuesta;
+    int SumaPrecios;
+    int respuesta;
 
 
 
@@ -70,12 +72,12 @@ public class poductosScript : MonoBehaviour
         apariciondeprecios();
 
         panel.SetActive(false);
-
+        BotonReiniciar();
     }
     // Update is called once per frame
     void Update()
     {
-
+        
     }
     public void apariciondeprecios()
     {
@@ -89,18 +91,17 @@ public class poductosScript : MonoBehaviour
 
         SumaPrecios = precio1 + precio2;
 
-        respuesta = int.Parse(InputRespuesta.text);
-       
 
 
 
-     
+
+
 
     }
 
     void DesactivarTodo()
     {
-        for(int i = 0; i < alimentos1.Length; i ++)
+        for (int i = 0; i < alimentos1.Length; i++)
         {
             alimentos1[i].SetActive(false);
         }
@@ -118,17 +119,53 @@ public class poductosScript : MonoBehaviour
     public void PanelInfo()
     {
         panel.SetActive(true);
-      
+        respuesta = int.Parse(InputRespuesta.text);
 
         if (respuesta == SumaPrecios)
         {
 
             Txtresultado.text = "Respuesta correcta";
+            BotonSalir.text = "Reiniciar el desafio";
+
         }
         else if (respuesta != SumaPrecios)
         {
             Txtresultado.text = "Respuesta incorrecta";
+            BotonSalir.text = "Volver a intentarlo";
+
         }
+
+       
+
+        Debug.Log(respuesta);
         //Hay q poner el respuesta.SetActive(true);
     }
-}
+
+    public void BotonReiniciar()
+    {
+
+
+        if (respuesta == SumaPrecios)
+        {
+
+            BotonSalir.text = "Reiniciar el desafío";
+            panel.SetActive(false);
+            apariciondeprecios();
+        }
+
+
+        else  if (respuesta != SumaPrecios)
+        {
+
+            BotonSalir.text = "Volver a intentarlo";
+            panel.SetActive(false);
+            apariciondeprecios();
+        }
+
+        }
+
+
+    }
+
+
+
