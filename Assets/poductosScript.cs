@@ -7,7 +7,7 @@ public class poductosScript : MonoBehaviour
 {
     public GameObject[] alimentos1;
     public GameObject[] alimentos2;
-    public GameObject Panel;
+    public GameObject panel;
     public GameObject BotonResponder;
 
 
@@ -68,7 +68,7 @@ public class poductosScript : MonoBehaviour
 
         apariciondeprecios();
 
-        Panel.SetActive(false);
+        panel.SetActive(false);
 
     }
     // Update is called once per frame
@@ -107,10 +107,15 @@ public class poductosScript : MonoBehaviour
         {
             alimentos2[i].SetActive(false);
         }
+
+        if (panel != null)
+        {
+            panel.SetActive(false);
+        }
     }
     public void PanelInfo()
     {
-
+        panel.SetActive(true);
       
 
         if (respuesta == SumaPrecios)
@@ -118,11 +123,10 @@ public class poductosScript : MonoBehaviour
 
             Txtresultado.text = "Respuesta correcta";
         }
-        else
+        else if (respuesta != SumaPrecios)
         {
-
+            Txtresultado.text = "Respuesta incorrecta";
         }
-        //Hay q poner el panel.SetActive(true);
         //Hay q poner el respuesta.SetActive(true);
     }
 }
