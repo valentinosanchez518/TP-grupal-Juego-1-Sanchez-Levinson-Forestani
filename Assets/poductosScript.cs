@@ -9,12 +9,13 @@ public class poductosScript : MonoBehaviour
     public GameObject[] alimentos2;
     public GameObject panel;
     public GameObject BotonResponder;
+    public GameObject BotonSalir;
 
 
     public Text Txtprecio1;
     public Text Txtprecio2;
     public Text Txtresultado;
-    public InputField Respuesta;
+    public InputField InputRespuesta;
 
     int[] precios;
 
@@ -87,7 +88,8 @@ public class poductosScript : MonoBehaviour
         Txtprecio2.text = (precio2).ToString();
 
         SumaPrecios = precio1 + precio2;
-        respuesta = int.Parse(Respuesta.text);
+
+        respuesta = int.Parse(InputRespuesta.text);
        
 
 
