@@ -10,11 +10,12 @@ public class poductosScript : MonoBehaviour
 
     public Text Txtprecio1;
     public Text Txtprecio2;
+    public InputField Input;
 
     int [] precios;
-
+    
    
-
+   
     
 
 
@@ -23,7 +24,7 @@ public class poductosScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        precios = new int[13];
+        precios = new int[14];
 
         //precioPera = 5
         precios[0] = 5;
@@ -53,23 +54,32 @@ public class poductosScript : MonoBehaviour
         precios[12] = 7;
         //precioSalchicha = 14
         precios[13] = 14;
+
+
+        apariciondeprecios();
+        
     }
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
+       
+    }
+    public void apariciondeprecios()
+    {
         int nroR = Random.Range(0, 13);
-            Debug.Log(nroR);
-            int precio1 = precios[nroR];
-            Txtprecio1.text = precio1.ToString();
-        }
-        if (Input.GetKeyDown(KeyCode.Space))
+        int precio1 = precios[nroR];
+        Txtprecio1.text = precio1.ToString();
+
+        int nroR2 = Random.Range(0, 13);
+        int precio2 = precios[nroR2];
+        Txtprecio2.text = (precio2).ToString();
+
+        int SumaPrecios = precio1 + precio2;
+    
+        if ()
         {
-            int nroR2 = Random.Range(0, 13);
-            Debug.Log(nroR2);
-            int precio2 = precios[nroR2];
-            Txtprecio2.text = (precio2).ToString();
+            
         }
     }
+
 }
