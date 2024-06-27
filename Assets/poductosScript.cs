@@ -7,23 +7,33 @@ public class poductosScript : MonoBehaviour
 {
     public GameObject[] alimentos1;
     public GameObject[] alimentos2;
+    public GameObject Panel;
+    public GameObject BotonResponder;
+
 
     public Text Txtprecio1;
     public Text Txtprecio2;
-    public InputField Input;
+    public Text Txtresultado;
+    public InputField Respuesta;
 
-    int [] precios;
-    
-   
-   
-    
+    int[] precios;
+
+    public int SumaPrecios;
+    public int respuesta;
+
+
+
+
 
 
 
 
     // Start is called before the first frame update
+
     void Start()
     {
+        DesactivarTodo();
+
         precios = new int[14];
 
         //precioPera = 5
@@ -57,12 +67,14 @@ public class poductosScript : MonoBehaviour
 
 
         apariciondeprecios();
-        
+
+        Panel.SetActive(false);
+
     }
     // Update is called once per frame
     void Update()
     {
-       
+
     }
     public void apariciondeprecios()
     {
@@ -74,12 +86,43 @@ public class poductosScript : MonoBehaviour
         int precio2 = precios[nroR2];
         Txtprecio2.text = (precio2).ToString();
 
-        int SumaPrecios = precio1 + precio2;
-    
-        if ()
-        {
-            
-        }
+        SumaPrecios = precio1 + precio2;
+        respuesta = int.Parse(Respuesta.text);
+       
+
+
+
+     
+
     }
 
+    void DesactivarTodo()
+    {
+        for(int i = 0; i < alimentos1.Length; i ++)
+        {
+            alimentos1[i].SetActive(false);
+        }
+
+        for (int i = 0; i < alimentos2.Length; i++)
+        {
+            alimentos2[i].SetActive(false);
+        }
+    }
+    public void PanelInfo()
+    {
+
+      
+
+        if (respuesta == SumaPrecios)
+        {
+
+            Txtresultado.text = "Respuesta correcta";
+        }
+        else
+        {
+
+        }
+        //Hay q poner el panel.SetActive(true);
+        //Hay q poner el respuesta.SetActive(true);
+    }
 }
