@@ -121,7 +121,17 @@ public class poductosScript : MonoBehaviour
     public void PanelInfo()
     {
         panel.SetActive(true);
-        respuesta = int.Parse(InputRespuesta.text);
+        if(InputRespuesta.text != "")
+        {
+            respuesta = int.Parse(InputRespuesta.text);
+        }
+        else
+        {
+            BotonSalir.text = "Volver a intentarlo";
+            Txtresultado.text = "Debes ingresar un resultado";
+            return;
+        }
+        
 
         if (respuesta == SumaPrecios)
         {
@@ -151,7 +161,6 @@ public class poductosScript : MonoBehaviour
 
 
 
-        Debug.Log(respuesta);
     }
 
     public void BotonReiniciar()
@@ -172,6 +181,15 @@ public class poductosScript : MonoBehaviour
         {
 
             BotonSalir.text = "Volver a intentarlo";
+            panel.SetActive(false);
+            apariciondeprecios();
+            AparicionObjetos();
+
+
+        }
+        else if (InputRespuesta.text == null)
+        {
+            BotonSalir.text = "Ingresar resultado";
             panel.SetActive(false);
             apariciondeprecios();
             AparicionObjetos();
