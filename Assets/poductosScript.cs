@@ -23,6 +23,8 @@ public class poductosScript : MonoBehaviour
 
     int SumaPrecios;
     int respuesta;
+    int nroR;
+    int nroR2;
 
 
 
@@ -77,15 +79,15 @@ public class poductosScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
     public void apariciondeprecios()
     {
-        int nroR = Random.Range(0, 13);
+        nroR = Random.Range(0, 13);
         int precio1 = precios[nroR];
         Txtprecio1.text = precio1.ToString();
 
-        int nroR2 = Random.Range(0, 13);
+        nroR2 = Random.Range(0, 13);
         int precio2 = precios[nroR2];
         Txtprecio2.text = (precio2).ToString();
 
@@ -135,10 +137,21 @@ public class poductosScript : MonoBehaviour
 
         }
 
-       
+        InputRespuesta.text = "";
+
+        for (int i = 0; i < alimentos1.Length; i++)
+        {
+            alimentos1[i].SetActive(false);
+        }
+
+        for (int i = 0; i < alimentos2.Length; i++)
+        {
+            alimentos2[i].SetActive(false);
+        }
+
+
 
         Debug.Log(respuesta);
-        //Hay q poner el respuesta.SetActive(true);
     }
 
     public void BotonReiniciar()
@@ -151,21 +164,27 @@ public class poductosScript : MonoBehaviour
             BotonSalir.text = "Reiniciar el desafío";
             panel.SetActive(false);
             apariciondeprecios();
+            AparicionObjetos();
         }
 
 
-        else  if (respuesta != SumaPrecios)
+        else if (respuesta != SumaPrecios)
         {
 
             BotonSalir.text = "Volver a intentarlo";
             panel.SetActive(false);
             apariciondeprecios();
+            AparicionObjetos();
         }
-
-        }
-
 
     }
+    void AparicionObjetos()
+    {
+        alimentos1[nroR].SetActive(true);
+        alimentos2[nroR2].SetActive(true);
+    }
+
+}
 
 
 
